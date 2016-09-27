@@ -17,10 +17,11 @@
     <textDeleteLog>Delete Log</textDeleteLog>
     <textShallDeleteLog>Shall the log be deleted?</textShallDeleteLog>
     <textSaveLog>Save Output Log</textSaveLog>
-    <filterText>Text file</filterText>
-    <filterCSV>Comma Seperated Values file</filterCSV>
-    <filterKnownFormats>All known formats</filterKnownFormats>
-    <filterPDF>PDF file</filterPDF>
+    <filterTXT>Text file (*.txt)|*.txt</filterTXT>
+    <filterCSV>CSV file (*.csv)|*.csv</filterCSV>
+    <filterPDF>PDF file (*.pdf)|*.pdf</filterPDF>
+    <filterXLSX>XLSX file (*.xlsx)|*.xlsx</filterXLSX>
+    <filterAllFiles>All known files (*.*)|*.*</filterAllFiles>
     <filterTable>Table file</filterTable>
     <filterTemplate>Template file  (*.txt)|*.txt</filterTemplate>
     <filterTemplateXml>Script Builder Template (*.stx)|*.stx</filterTemplateXml>

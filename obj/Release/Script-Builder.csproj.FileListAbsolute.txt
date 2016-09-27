@@ -1,1 +1,32 @@
 Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\bin\Release\Script Builder.exe.config
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\bin\Release\Script Builder.exe.config
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\bin\Release\languagepack.xml
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\bin\Release\Script Builder.exe.manifest
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\bin\Release\Script Builder.application
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\bin\Release\Script Builder.exe
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\bin\Release\Script Builder.pdb
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\bin\Release\en-US\Script Builder.resources.dll
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.AboutBox1.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.checkComplexVariable.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.createIfForm.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.serialWizard.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.importForm.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.mainForm.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.optionsForm.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.OutputLog.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.Properties.Resources.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.Resource1.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.AboutBox1.en-US.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.checkComplexVariable.en-US.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.createIfForm.en-US.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.serialWizard.en-US.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.importForm.en-US.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.mainForm.en-US.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.optionsForm.en-US.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script_Builder.OutputLog.en-US.resources
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script-Builder.csproj.GenerateResource.Cache
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\en-US\Script Builder.resources.dll
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script Builder.exe.manifest
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script Builder.application
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script Builder.exe
+C:\Users\Sandmann\Meine Projekte\GitRepos\ScriptBuilder\obj\Release\Script Builder.pdb

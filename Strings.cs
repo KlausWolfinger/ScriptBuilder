@@ -79,10 +79,15 @@ namespace Script_Builder
             standard.Add("textShallDeleteLog", "Log wirklich löschen?");
             standard.Add("textDeleteLog", "Log löschen");
             standard.Add("textSaveLog", "Output Log speichern");
-            standard.Add("filterText", "Text Datei");
+            /*standard.Add("filterText", "Text Datei");
             standard.Add("filterCSV", "Komma-Separierte Datei");
-            standard.Add("filterKnownFormats", "Alle unterstützten Formate");
-            standard.Add("filterPDF", "PDF Datei");
+            standard.Add("filterPDF", "PDF Datei");*/
+            standard.Add("filterTXT", "Text-Datei (*.txt)|*.txt");
+            standard.Add("filterCSV", "CSV-Datei (*.csv)|*.csv");
+            standard.Add("filterPDF", "PDF-Datei (*.pdf)|*.pdf");
+            standard.Add("filterXLSX", "XLSX-Datei (*.xlsx)|*.xlsx");
+            standard.Add("filterAllFiles", "Alle Dateitypen (*.*)|*.*");
+            //standard.Add("filterKnownFormats", "Alle unterstützten Formate");
             standard.Add("filterTable", "Tabellen Datei");
             standard.Add("filterTemplate", "Vorlagen Datei (*.txt)|*.txt");
             standard.Add("filterTemplateXml", "Script Builder Vorlage (*.stx)|*.stx");
@@ -195,7 +200,7 @@ namespace Script_Builder
             standard.Add("templateImportErrorXml3", "Beim Laden der XML Datei ist ein Fehler aufgetreten:");
             standard.Add("textNewTemplate", "[Neues Template]");
             #endregion
-            
+
             if (currentCulture.ToString() == "")
                 aktive = standard;
         }

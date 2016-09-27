@@ -50,7 +50,8 @@ namespace Script_Builder
             Dialog.AddExtension = true;
             Dialog.CheckPathExists = true;
             Dialog.DefaultExt = "txt";
-            Dialog.Filter = mainForm.programmStrings.GetString("filterText") + " (*.txt)|*.txt";
+            //Dialog.Filter = mainForm.programmStrings.GetString("filterText") + " (*.txt)|*.txt";
+            Dialog.Filter = mainForm.programmStrings.GetString("filterTXT");
             Dialog.OverwritePrompt = true;
             Dialog.Title = mainForm.programmStrings.GetString("textSaveLog");
             Dialog.ValidateNames = true;

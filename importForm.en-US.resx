@@ -154,12 +154,6 @@
   <data name="radFile.Text" xml:space="preserve">
     <value>File:</value>
   </data>
-  <data name="radClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 17</value>
-  </data>
-  <data name="radClipboard.Text" xml:space="preserve">
-    <value>Clipboard</value>
-  </data>
   <data name="firstRowHeaders.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 17</value>
   </data>

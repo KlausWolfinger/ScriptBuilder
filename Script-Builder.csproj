@@ -10,16 +10,15 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Script_Builder</RootNamespace>
     <AssemblyName>Script Builder</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <StartupObject>Script_Builder.Program</StartupObject>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <ManifestCertificateThumbprint>B7AFFC2D8775B4A0BBA2434B850D1188E158E85C</ManifestCertificateThumbprint>
     <ManifestKeyFile>Script-Builder_1_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
     <ApplicationIcon>scriptbuilder3.ico</ApplicationIcon>
-    <NoWin32Manifest>true</NoWin32Manifest>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileUpgradeFlags>
@@ -52,6 +51,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -60,11 +60,16 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'test|AnyCPU' ">
-    <OutputPath>bin\test\</OutputPath>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Excel">
+      <HintPath>.\Excel.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -94,6 +99,8 @@
     <Compile Include="checkComplexVariable.Designer.cs">
       <DependentUpon>checkComplexVariable.cs</DependentUpon>
     </Compile>
+    <Compile Include="ImportFunctionsTemplate.cs" />
+    <Compile Include="ImportFunctionsTable.cs" />
     <Compile Include="createIfForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +147,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="checkComplexVariable.en-US.resx">
       <DependentUpon>checkComplexVariable.cs</DependentUpon>
@@ -152,6 +160,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="createIfForm.resx">
       <DependentUpon>createIfForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="serialWizard.en-US.resx">
       <DependentUpon>serialWizard.cs</DependentUpon>
@@ -161,9 +170,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="importForm.en-US.resx">
       <DependentUpon>importForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="importForm.resx">
       <DependentUpon>importForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="mainForm.en-US.resx">
       <DependentUpon>mainForm.cs</DependentUpon>
@@ -178,6 +189,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="optionsForm.resx">
       <DependentUpon>optionsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="OutputLog.en-US.resx">
       <DependentUpon>OutputLog.cs</DependentUpon>
@@ -323,6 +335,10 @@
     <None Include="Resources\serial_header.png" />
     <None Include="Resources\error.png" />
     <None Include="Resources\minus.png" />
+    <None Include="languagepack.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="scriptbuilder.ico" />
     <Content Include="scriptbuilder3.ico" />
   </ItemGroup>

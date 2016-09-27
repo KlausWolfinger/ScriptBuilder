@@ -48,7 +48,6 @@
             this.tsmChangeOrder = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmOrderUp = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmOrderDown = new System.Windows.Forms.ToolStripMenuItem();
-            this.vorlageVerwaltenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.pnlFileProperties = new System.Windows.Forms.Panel();
             this.picErrorName = new System.Windows.Forms.PictureBox();
@@ -62,6 +61,7 @@
             this.btnNodeBrowseFilePath = new System.Windows.Forms.Button();
             this.txtNodePath = new System.Windows.Forms.TextBox();
             this.lblSavePath = new System.Windows.Forms.Label();
+            this.vorlageVerwaltenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainMenuStrip = new System.Windows.Forms.MenuStrip();
             this.dateiMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.createOutputFile = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,8 +73,8 @@
             this.vorlagenMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.clearAll = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.vorlagenExport = new System.Windows.Forms.ToolStripMenuItem();
             this.vorlagenImport = new System.Windows.Forms.ToolStripMenuItem();
+            this.vorlagenExport = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.docConvert = new System.Windows.Forms.ToolStripMenuItem();
             this.checkTemplate = new System.Windows.Forms.ToolStripMenuItem();
@@ -83,8 +83,8 @@
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.tabelleMenuStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.excelTableImport = new System.Windows.Forms.ToolStripMenuItem();
-            this.fileTableExport = new System.Windows.Forms.ToolStripMenuItem();
             this.fileTableImport = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileTableExport = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.spalteHinzu = new System.Windows.Forms.ToolStripMenuItem();
             this.spalteEntfernenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -194,7 +194,6 @@
             this.toolStripSeparator11,
             this.tsmChangeOrder});
             this.cxmVorlageSelect.Name = "cxmVorlageSelect";
-            this.cxmVorlageSelect.OwnerItem = this.vorlageVerwaltenToolStripMenuItem;
             this.cxmVorlageSelect.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             resources.ApplyResources(this.cxmVorlageSelect, "cxmVorlageSelect");
             this.cxmVorlageSelect.Opening += new System.ComponentModel.CancelEventHandler(this.cxmVorlageSelect_Opening);
@@ -290,12 +289,6 @@
             this.tsmOrderDown.Name = "tsmOrderDown";
             resources.ApplyResources(this.tsmOrderDown, "tsmOrderDown");
             this.tsmOrderDown.Click += new System.EventHandler(this.tsmOrderUpDown_Click);
-            // 
-            // vorlageVerwaltenToolStripMenuItem
-            // 
-            this.vorlageVerwaltenToolStripMenuItem.DropDown = this.cxmVorlageSelect;
-            this.vorlageVerwaltenToolStripMenuItem.Name = "vorlageVerwaltenToolStripMenuItem";
-            resources.ApplyResources(this.vorlageVerwaltenToolStripMenuItem, "vorlageVerwaltenToolStripMenuItem");
             // 
             // imageList1
             // 
@@ -394,6 +387,12 @@
             resources.ApplyResources(this.lblSavePath, "lblSavePath");
             this.lblSavePath.Name = "lblSavePath";
             // 
+            // vorlageVerwaltenToolStripMenuItem
+            // 
+            this.vorlageVerwaltenToolStripMenuItem.DropDown = this.cxmVorlageSelect;
+            this.vorlageVerwaltenToolStripMenuItem.Name = "vorlageVerwaltenToolStripMenuItem";
+            resources.ApplyResources(this.vorlageVerwaltenToolStripMenuItem, "vorlageVerwaltenToolStripMenuItem");
+            // 
             // mainMenuStrip
             // 
             this.mainMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -460,8 +459,8 @@
             this.vorlagenMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clearAll,
             this.toolStripSeparator8,
-            this.vorlagenExport,
             this.vorlagenImport,
+            this.vorlagenExport,
             this.toolStripSeparator1,
             this.docConvert,
             this.checkTemplate,
@@ -484,19 +483,19 @@
             this.toolStripSeparator8.Name = "toolStripSeparator8";
             resources.ApplyResources(this.toolStripSeparator8, "toolStripSeparator8");
             // 
-            // vorlagenExport
-            // 
-            this.vorlagenExport.Image = global::Script_Builder.Resource1.application_put;
-            this.vorlagenExport.Name = "vorlagenExport";
-            resources.ApplyResources(this.vorlagenExport, "vorlagenExport");
-            this.vorlagenExport.Click += new System.EventHandler(this.vorlagenExport_Click);
-            // 
             // vorlagenImport
             // 
             this.vorlagenImport.Image = global::Script_Builder.Resource1.application_get;
             this.vorlagenImport.Name = "vorlagenImport";
             resources.ApplyResources(this.vorlagenImport, "vorlagenImport");
             this.vorlagenImport.Click += new System.EventHandler(this.vorlagenImport_Click);
+            // 
+            // vorlagenExport
+            // 
+            this.vorlagenExport.Image = global::Script_Builder.Resource1.application_put;
+            this.vorlagenExport.Name = "vorlagenExport";
+            resources.ApplyResources(this.vorlagenExport, "vorlagenExport");
+            this.vorlagenExport.Click += new System.EventHandler(this.vorlagenExport_Click);
             // 
             // toolStripSeparator1
             // 
@@ -541,8 +540,8 @@
             // 
             this.tabelleMenuStrip.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.excelTableImport,
-            this.fileTableExport,
             this.fileTableImport,
+            this.fileTableExport,
             this.toolStripSeparator4,
             this.spalteHinzu,
             this.spalteEntfernenToolStripMenuItem,
@@ -560,19 +559,19 @@
             resources.ApplyResources(this.excelTableImport, "excelTableImport");
             this.excelTableImport.Click += new System.EventHandler(this.excelTableImport_Click);
             // 
-            // fileTableExport
-            // 
-            this.fileTableExport.Image = global::Script_Builder.Resource1.table_export;
-            this.fileTableExport.Name = "fileTableExport";
-            resources.ApplyResources(this.fileTableExport, "fileTableExport");
-            this.fileTableExport.Click += new System.EventHandler(this.fileTableExport_Click);
-            // 
             // fileTableImport
             // 
             this.fileTableImport.Image = global::Script_Builder.Resource1.table_import;
             this.fileTableImport.Name = "fileTableImport";
             resources.ApplyResources(this.fileTableImport, "fileTableImport");
             this.fileTableImport.Click += new System.EventHandler(this.fileTableImport_Click);
+            // 
+            // fileTableExport
+            // 
+            this.fileTableExport.Image = global::Script_Builder.Resource1.table_export;
+            this.fileTableExport.Name = "fileTableExport";
+            resources.ApplyResources(this.fileTableExport, "fileTableExport");
+            this.fileTableExport.Click += new System.EventHandler(this.fileTableExport_Click);
             // 
             // toolStripSeparator4
             // 

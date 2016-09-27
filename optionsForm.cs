@@ -207,7 +207,8 @@ namespace Script_Builder
 
         private void buttonBrowseDoku_Click(object sender, EventArgs e)
         {
-            BrowseFile(mainForm.programmStrings.GetString("filterPDF") + " (*.pdf)|*.pdf", "pdf", txtDokuPath, mainForm.programmStrings.GetString("buttonBrowseDokuCaption"));
+            //BrowseFile(mainForm.programmStrings.GetString("filterPDF") + " (*.pdf)|*.pdf", "pdf", txtDokuPath, mainForm.programmStrings.GetString("buttonBrowseDokuCaption"));
+            BrowseFile(mainForm.programmStrings.GetString("filterPDF"), "pdf", txtDokuPath, mainForm.programmStrings.GetString("buttonBrowseDokuCaption"));
         }
 
         private void BrowseFile(string filter, string defaultExt, TextBox targetTextBox, string dialogTitle)
@@ -255,7 +256,8 @@ namespace Script_Builder
 
         private void buttonKeyBrowse_Click(object sender, EventArgs e)
         {
-            BrowseFile(mainForm.programmStrings.GetString("filterText") + " (*.txt)|*.txt|" + mainForm.programmStrings.GetString("filterCSV") + " (*.csv)|*.csv|" + mainForm.programmStrings.GetString("filterKnownFormats") + " (*.*)|*.*", "txt", txtKeyTarget, mainForm.programmStrings.GetString("buttonKeyBrowseCaption"));
+            //BrowseFile(mainForm.programmStrings.GetString("filterText") + " (*.txt)|*.txt|" + mainForm.programmStrings.GetString("filterCSV") + " (*.csv)|*.csv|" + mainForm.programmStrings.GetString("filterKnownFormats") + " (*.*)|*.*", "txt", txtKeyTarget, mainForm.programmStrings.GetString("buttonKeyBrowseCaption"));
+            BrowseFile(mainForm.programmStrings.GetString("filterTXT") + "|" + mainForm.programmStrings.GetString("filterCSV") + "|" + mainForm.programmStrings.GetString("filterAllFiles"), "txt", txtKeyTarget, mainForm.programmStrings.GetString("buttonKeyBrowseCaption"));
             if (Path.GetExtension(txtKeyTarget.Text) == ".csv")
                 comboTargetTextBox.Text = mainForm.programmStrings.GetString("makroTargetTable");
         }

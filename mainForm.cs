@@ -642,6 +642,7 @@ namespace Script_Builder
         public static void importTableFromFile(mainForm mainForm, DataTable InputTable)
         {
             importForm importForm1 = new importForm(mainForm);
+            
             DialogResult result = importForm1.ShowDialog();
             if (result == DialogResult.Cancel) return;
             result = MessageBox.Show(mainForm.programmStrings.GetString("textImportTable1"), mainForm.programmStrings.GetString("textImportTable2"), MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -649,24 +650,27 @@ namespace Script_Builder
                 return;
             InputTable.Clear();
             InputTable.Columns.Clear();
+
+            // Table import via clipboard or file
             try
             {
                 if(importForm1.ImportType == ImportType.File) {
-                    using (StreamReader srImportFile = new StreamReader(importForm1.importFilePath,importForm1.ImportEncoding))
+                    //using (StreamReader srImportFile = new StreamReader(importForm1.importFilePath,importForm1.ImportEncoding))
+                    using (StreamReader srImportFile = new StreamReader(importForm1.importFilePath, ImportFunctionsTable.getEncoding(importForm1.importFilePath)))
                     {
                         readClipboardInput(srImportFile, InputTable, importForm1.SeparatorChar);
                     }
                 }
                 else
                 {
-                    IDataObject objClipboard = Clipboard.GetDataObject();
+                    /*IDataObject objClipboard = Clipboard.GetDataObject();
                     if (objClipboard.GetDataPresent(DataFormats.Text))
                     {
                         using (StreamReader srImportData = new StreamReader(objClipboard.GetData(DataFormats.CommaSeparatedValue) as Stream, importForm1.ImportEncoding))
                         {
                             readClipboardInput(srImportData, InputTable, importForm1.SeparatorChar);
                         }   
-                    }
+                    }*/
                 }
                 if (importForm1.firstRowHeader)
                     headerInFirstRow(InputTable);
@@ -1045,7 +1049,7 @@ namespace Script_Builder
             openImportFile.ValidateNames = true;
             openImportFile.Filter = this.programmStrings.GetString("filterTemplateXml");
             openImportFile.Filter += "|" + this.programmStrings.GetString("filterTemplate");
-            openImportFile.Filter += "|" + this.programmStrings.GetString("filterKnownFormats") + " (*.*)|*.*";
+            openImportFile.Filter += "|" + this.programmStrings.GetString("filterAllFiles");
             openImportFile.FilterIndex = 1;
             openImportFile.Title = this.programmStrings.GetString("textImportTemplate3");
             result = openImportFile.ShowDialog();
@@ -2422,8 +2426,12 @@ namespace Script_Builder
                 return true;
             if (nodeTypen.ContainsKey(selectedNode) && (nodeTypen[selectedNode] == VorlagenType.File || nodeTypen[selectedNode] == VorlagenType.Serial) && nodeChanged())
             {
-                if (MessageBox.Show(this.programmStrings.GetString("textUnsavedChanges1"), this.programmStrings.GetString("textUnsavedChanges2"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.No)
+                // Bug: Endlosschleife beim löschen von einer Output-Datei
+                /*if (MessageBox.Show(programmStrings.GetString("textUnsavedChanges1"), this.programmStrings.GetString("textUnsavedChanges2"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.No)
+                {
                     return false;
+                }*/
+                    
             }
             return true;
         }

@@ -12,7 +12,6 @@ namespace Script_Builder
 {
     public enum ImportType
     {
-        Clipboard,
         File
     }
 
@@ -53,29 +52,14 @@ namespace Script_Builder
             }
         }
 
-        public Encoding ImportEncoding
-        {
-            get
-            {
-                if (radANSI.Checked)
-                    return Encoding.Default;
-                else if (radUnicode.Checked)
-                    return Encoding.Unicode;
-                else //(radUTF8.Checked)
-                    return Encoding.UTF8;
-            }
-        }
-
         public ImportType ImportType
         {
             get
             {
-                if (radClipboard.Checked == true)
-                    return ImportType.Clipboard;
-                else
-                    return ImportType.File;
+                return ImportType.File;
             }
         }
+
 
         public char[] SeparatorChar
         {
@@ -116,14 +100,32 @@ namespace Script_Builder
             openImportFile.AddExtension = true;
             openImportFile.CheckFileExists = true;
             openImportFile.CheckPathExists = true;
-            openImportFile.DefaultExt = "csv";
             openImportFile.Multiselect = false;
             openImportFile.ShowReadOnly = false;
             openImportFile.SupportMultiDottedExtensions = true;
             openImportFile.ValidateNames = true;
-            openImportFile.Filter = mainForm.programmStrings.GetString("filterCSV") + " (*.csv)|*.csv";
-            openImportFile.Filter += "|" + mainForm.programmStrings.GetString("filterText") + " (*.txt)|*.txt";
-            openImportFile.Filter += "|" + mainForm.programmStrings.GetString("filterKnownFormats") + " (*.*)|*.*";
+
+            if(radFiletypeXLSX.Checked == true)
+            {
+                openImportFile.DefaultExt = "xlsx";
+                openImportFile.Filter = mainForm.programmStrings.GetString("filterXLSX");
+                openImportFile.Filter += "|" + mainForm.programmStrings.GetString("filterAllFiles");
+            } else if(radFiletypeCSV.Checked == true)
+            {
+                openImportFile.DefaultExt = "csv";
+                openImportFile.Filter = mainForm.programmStrings.GetString("filterCSV");
+                openImportFile.Filter += "|" + mainForm.programmStrings.GetString("filterTXT");
+                openImportFile.Filter += "|" + mainForm.programmStrings.GetString("filterAllFiles");
+            }
+            else
+            {
+                openImportFile.DefaultExt = "*";
+                openImportFile.Filter = mainForm.programmStrings.GetString("filterXLSX");
+                openImportFile.Filter += "|" + mainForm.programmStrings.GetString("filterCSV");
+                openImportFile.Filter += "|" + mainForm.programmStrings.GetString("filterTXT");
+                openImportFile.Filter += "|" + mainForm.programmStrings.GetString("filterAllFiles");
+            }
+            
             openImportFile.FilterIndex = 1;
             openImportFile.Title = mainForm.programmStrings.GetString("textImportTableFrom");
             DialogResult result = openImportFile.ShowDialog();
@@ -155,7 +157,7 @@ namespace Script_Builder
                 MessageBox.Show(mainForm.programmStrings.GetString("textCustomSeperator"), mainForm.programmStrings.GetString("textImportTable"), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
-            if (radFile.Checked == true && !File.Exists(importFile.Text))
+            if (!File.Exists(importFile.Text))
             {
                 MessageBox.Show(mainForm.programmStrings.GetString("textFileDontExits"), mainForm.programmStrings.GetString("textImportTable"), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
@@ -168,26 +170,28 @@ namespace Script_Builder
             mainForm.CurrentPath = Path.GetFullPath(importFile.Text);
         }
 
-        private void radFile_CheckedChanged(object sender, EventArgs e)
+        private void radFiletypeXLSXChanged(object sender, EventArgs e)
         {
-            importFile.Enabled = false;
-            browseButton.Enabled = false;
-            if (radFile.Checked)
+            if (radFiletypeXLSX.Checked == true)
             {
-                importFile.Enabled = true;
-                browseButton.Enabled = true;
+                groupBox1.Enabled = false;
+            }else
+            {
+                groupBox1.Enabled = true;
             }
         }
 
-        private void radClipboard_CheckedChanged(object sender, EventArgs e)
+        private void radFiletypeCSVChanged(object sender, EventArgs e)
         {
-            labelDLS.Visible = false;
-            labelExcel.Visible = false;
-            if (radClipboard.Checked)
+            if (radFiletypeCSV.Checked == true)
             {
-                labelDLS.Visible = true;
-                labelExcel.Visible = true;
+                groupBox1.Enabled = true;
+            }
+            else
+            {
+                groupBox1.Enabled = false;
             }
         }
+
     }
 }
