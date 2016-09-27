@@ -11,7 +11,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Max Zoeller")]
 [assembly: AssemblyProduct("Script Builder")]
-[assembly: AssemblyCopyright("Copyright © Maximilian Zoeller 2009-2016 (GNU v3.0)")]
+[assembly: AssemblyCopyright("Copyright © Maximilian Zoeller 2009-2016 (GNU v3.0)\nModifiziert von LostInWeb")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,6 +33,6 @@ using System.Resources;
 // Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
 // übernehmen, indem Sie "*" eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.9.9.1")]
-[assembly: AssemblyFileVersion("0.9.9.1")]
+[assembly: AssemblyVersion("0.9.10.1")]
+[assembly: AssemblyFileVersion("0.9.10.1")]
 [assembly: NeutralResourcesLanguageAttribute("")]

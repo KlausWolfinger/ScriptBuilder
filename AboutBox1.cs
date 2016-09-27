@@ -115,5 +115,10 @@ namespace Script_Builder
             }
         }
         #endregion
+
+        private void labelCopyright_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -304,8 +304,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\script.png" />
-    <None Include="Script-Builder_1_TemporaryKey.pfx" />
-    <None Include="Script-Builder_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\application_get.png" />
