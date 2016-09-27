@@ -225,6 +225,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="Strings.cs" />
     <Compile Include="vorlage.cs" />
   </ItemGroup>
@@ -340,6 +341,7 @@
     <Content Include="scriptbuilder.ico" />
     <Content Include="scriptbuilder3.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -24,6 +24,9 @@ namespace Script_Builder
                 MessageBox.Show("You don't have the correct .Net-Framework version installed.\r\n\r\nInstalled version: " + Environment.Version.ToString() + "\r\nRequired version: 2.0.50727.3053 (Framework 3.5 SP1)", "Wrong .Net-Framework Version", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Environment.Exit(-1);
             }*/
+
+            //MessageBox.Show(Application.StartupPath+ "\\OSVIntManProv"+"\\index.htm");
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new mainForm(args));

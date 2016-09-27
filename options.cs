@@ -133,6 +133,10 @@ namespace Script_Builder
             {
                 if(File.Exists(Path.Combine(Application.StartupPath, "OSV-Scripting-Help.pdf")))
                     SetOptions("DokuPath", Path.Combine(Application.StartupPath, "OSV-Scripting-Help.pdf"));
+                /*if (File.Exists(Path.Combine(Application.StartupPath+ "\\OSVIntManProv", "index.htm")))
+                {
+                    SetOptions("DokuPath", Path.Combine(Application.StartupPath, "OSVIntManProv/index.htm"));
+                }*/
                 //SetOptions("Language", "English");
                 SetOptions("Language", "Deutsch");
                 WriteOptions();
