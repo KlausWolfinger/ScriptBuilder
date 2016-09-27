@@ -35,22 +35,10 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.trvVorlageSelect = new System.Windows.Forms.TreeView();
             this.cxmVorlageSelect = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmEditName = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmRemove = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmAddFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmAddSerial = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmAddContent = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmAddSingle = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmAddMultiple = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmAddSerialBlock = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmChangeOrder = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmOrderUp = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmOrderDown = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.pnlFileProperties = new System.Windows.Forms.Panel();
-            this.picErrorName = new System.Windows.Forms.PictureBox();
             this.btnSerialWizard = new System.Windows.Forms.Button();
             this.btnNodeCancel = new System.Windows.Forms.Button();
             this.btnNodeChange = new System.Windows.Forms.Button();
@@ -64,66 +52,82 @@
             this.vorlageVerwaltenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainMenuStrip = new System.Windows.Forms.MenuStrip();
             this.dateiMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.createOutputFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.showOutputLog = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.options = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.beenden = new System.Windows.Forms.ToolStripMenuItem();
             this.vorlagenMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.clearAll = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.vorlagenImport = new System.Windows.Forms.ToolStripMenuItem();
-            this.vorlagenExport = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.docConvert = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkTemplate = new System.Windows.Forms.ToolStripMenuItem();
-            this.createIfBlock = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkComplexVariable = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.tabelleMenuStrip = new System.Windows.Forms.ToolStripMenuItem();
-            this.excelTableImport = new System.Windows.Forms.ToolStripMenuItem();
-            this.fileTableImport = new System.Windows.Forms.ToolStripMenuItem();
-            this.fileTableExport = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.spalteHinzu = new System.Windows.Forms.ToolStripMenuItem();
-            this.spalteEntfernenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clearTable = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.firstRowHeader = new System.Windows.Forms.ToolStripMenuItem();
             this.makrosMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.groupDefaultHeader = new System.Windows.Forms.ToolStripMenuItem();
             this.headerOldFormat = new System.Windows.Forms.ToolStripMenuItem();
             this.headerNewFormat = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.hilfeMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.openScriptingDoku = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.infoPageShow = new System.Windows.Forms.ToolStripMenuItem();
             this.cxmTextBox = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmTextCut = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmTextCopy = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmTextPaste = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmTextMenuSeperator = new System.Windows.Forms.ToolStripSeparator();
             this.tsmAddVariable = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.statusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.progressBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.tsmEditName = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmRemove = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmAddFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmAddSerial = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmAddContent = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmAddSingle = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmAddMultiple = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmAddSerialBlock = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmChangeOrder = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmOrderUp = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmOrderDown = new System.Windows.Forms.ToolStripMenuItem();
+            this.picErrorName = new System.Windows.Forms.PictureBox();
+            this.createOutputFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.showOutputLog = new System.Windows.Forms.ToolStripMenuItem();
+            this.options = new System.Windows.Forms.ToolStripMenuItem();
+            this.beenden = new System.Windows.Forms.ToolStripMenuItem();
+            this.clearAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.vorlagenImport = new System.Windows.Forms.ToolStripMenuItem();
+            this.vorlagenExport = new System.Windows.Forms.ToolStripMenuItem();
+            this.docConvert = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkTemplate = new System.Windows.Forms.ToolStripMenuItem();
+            this.createIfBlock = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkComplexVariable = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelTableImport = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileTableImport = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileTableExport = new System.Windows.Forms.ToolStripMenuItem();
+            this.spalteHinzu = new System.Windows.Forms.ToolStripMenuItem();
+            this.spalteEntfernenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clearTable = new System.Windows.Forms.ToolStripMenuItem();
+            this.firstRowHeader = new System.Windows.Forms.ToolStripMenuItem();
+            this.openScriptingDoku = new System.Windows.Forms.ToolStripMenuItem();
+            this.infoPageShow = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmTextCut = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmTextCopy = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmTextPaste = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
+            this.makroSamples = new System.Windows.Forms.ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
             this.splitContainer.Panel2.SuspendLayout();
             this.splitContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgrExcelContents)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.cxmVorlageSelect.SuspendLayout();
             this.pnlFileProperties.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picErrorName)).BeginInit();
             this.mainMenuStrip.SuspendLayout();
             this.cxmTextBox.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picErrorName)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer
@@ -194,101 +198,20 @@
             this.toolStripSeparator11,
             this.tsmChangeOrder});
             this.cxmVorlageSelect.Name = "cxmVorlageSelect";
+            this.cxmVorlageSelect.OwnerItem = this.vorlageVerwaltenToolStripMenuItem;
             this.cxmVorlageSelect.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             resources.ApplyResources(this.cxmVorlageSelect, "cxmVorlageSelect");
             this.cxmVorlageSelect.Opening += new System.ComponentModel.CancelEventHandler(this.cxmVorlageSelect_Opening);
-            // 
-            // tsmEditName
-            // 
-            this.tsmEditName.Image = global::Script_Builder.Resource1.textfield_rename;
-            this.tsmEditName.Name = "tsmEditName";
-            resources.ApplyResources(this.tsmEditName, "tsmEditName");
-            this.tsmEditName.Click += new System.EventHandler(this.tsmEditName_Click);
-            // 
-            // tsmRemove
-            // 
-            this.tsmRemove.Image = global::Script_Builder.Resource1.cross;
-            this.tsmRemove.Name = "tsmRemove";
-            resources.ApplyResources(this.tsmRemove, "tsmRemove");
-            this.tsmRemove.Click += new System.EventHandler(this.tsmRemove_Click);
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
             resources.ApplyResources(this.toolStripSeparator10, "toolStripSeparator10");
             // 
-            // tsmAddFile
-            // 
-            this.tsmAddFile.Image = global::Script_Builder.Resource1.new_templatefile;
-            this.tsmAddFile.Name = "tsmAddFile";
-            resources.ApplyResources(this.tsmAddFile, "tsmAddFile");
-            this.tsmAddFile.Click += new System.EventHandler(this.tsmAddFile_Click);
-            // 
-            // tsmAddSerial
-            // 
-            this.tsmAddSerial.Image = global::Script_Builder.Resource1.new_templateserial;
-            this.tsmAddSerial.Name = "tsmAddSerial";
-            resources.ApplyResources(this.tsmAddSerial, "tsmAddSerial");
-            this.tsmAddSerial.Click += new System.EventHandler(this.tsmAddSerial_Click);
-            // 
-            // tsmAddContent
-            // 
-            this.tsmAddContent.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmAddSingle,
-            this.tsmAddMultiple,
-            this.tsmAddSerialBlock});
-            this.tsmAddContent.Image = global::Script_Builder.Resource1.add_template;
-            this.tsmAddContent.Name = "tsmAddContent";
-            resources.ApplyResources(this.tsmAddContent, "tsmAddContent");
-            // 
-            // tsmAddSingle
-            // 
-            this.tsmAddSingle.Image = global::Script_Builder.Resource1.select_header;
-            this.tsmAddSingle.Name = "tsmAddSingle";
-            resources.ApplyResources(this.tsmAddSingle, "tsmAddSingle");
-            this.tsmAddSingle.Click += new System.EventHandler(this.tsmAddSingle_Click);
-            // 
-            // tsmAddMultiple
-            // 
-            this.tsmAddMultiple.Image = global::Script_Builder.Resource1.select_body;
-            this.tsmAddMultiple.Name = "tsmAddMultiple";
-            resources.ApplyResources(this.tsmAddMultiple, "tsmAddMultiple");
-            this.tsmAddMultiple.Click += new System.EventHandler(this.tsmAddMultiple_Click);
-            // 
-            // tsmAddSerialBlock
-            // 
-            this.tsmAddSerialBlock.Image = global::Script_Builder.Resource1.serial_header;
-            this.tsmAddSerialBlock.Name = "tsmAddSerialBlock";
-            resources.ApplyResources(this.tsmAddSerialBlock, "tsmAddSerialBlock");
-            this.tsmAddSerialBlock.Click += new System.EventHandler(this.tsmAddSerialBlock_Click);
-            // 
             // toolStripSeparator11
             // 
             this.toolStripSeparator11.Name = "toolStripSeparator11";
             resources.ApplyResources(this.toolStripSeparator11, "toolStripSeparator11");
-            // 
-            // tsmChangeOrder
-            // 
-            this.tsmChangeOrder.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmOrderUp,
-            this.tsmOrderDown});
-            this.tsmChangeOrder.Image = global::Script_Builder.Resource1.arrows_updown;
-            this.tsmChangeOrder.Name = "tsmChangeOrder";
-            resources.ApplyResources(this.tsmChangeOrder, "tsmChangeOrder");
-            // 
-            // tsmOrderUp
-            // 
-            this.tsmOrderUp.Image = global::Script_Builder.Resource1.arrow_up2;
-            this.tsmOrderUp.Name = "tsmOrderUp";
-            resources.ApplyResources(this.tsmOrderUp, "tsmOrderUp");
-            this.tsmOrderUp.Click += new System.EventHandler(this.tsmOrderUpDown_Click);
-            // 
-            // tsmOrderDown
-            // 
-            this.tsmOrderDown.Image = global::Script_Builder.Resource1.arrow_down2;
-            this.tsmOrderDown.Name = "tsmOrderDown";
-            resources.ApplyResources(this.tsmOrderDown, "tsmOrderDown");
-            this.tsmOrderDown.Click += new System.EventHandler(this.tsmOrderUpDown_Click);
             // 
             // imageList1
             // 
@@ -316,14 +239,6 @@
             this.pnlFileProperties.Controls.Add(this.lblSavePath);
             resources.ApplyResources(this.pnlFileProperties, "pnlFileProperties");
             this.pnlFileProperties.Name = "pnlFileProperties";
-            // 
-            // picErrorName
-            // 
-            resources.ApplyResources(this.picErrorName, "picErrorName");
-            this.picErrorName.Image = global::Script_Builder.Resource1.error;
-            this.picErrorName.Name = "picErrorName";
-            this.picErrorName.TabStop = false;
-            this.picErrorName.Click += new System.EventHandler(this.picErrorName_Click);
             // 
             // btnSerialWizard
             // 
@@ -416,43 +331,15 @@
             this.dateiMenu.Name = "dateiMenu";
             resources.ApplyResources(this.dateiMenu, "dateiMenu");
             // 
-            // createOutputFile
-            // 
-            this.createOutputFile.Image = global::Script_Builder.Resource1.disk;
-            resources.ApplyResources(this.createOutputFile, "createOutputFile");
-            this.createOutputFile.Name = "createOutputFile";
-            this.createOutputFile.Click += new System.EventHandler(this.createOutputFile_Click);
-            // 
-            // showOutputLog
-            // 
-            this.showOutputLog.Image = global::Script_Builder.Resource1.blog;
-            this.showOutputLog.Name = "showOutputLog";
-            resources.ApplyResources(this.showOutputLog, "showOutputLog");
-            this.showOutputLog.Click += new System.EventHandler(this.showOutputLog_Click);
-            // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
-            // options
-            // 
-            this.options.Image = global::Script_Builder.Resource1.hammer_screwdriver;
-            this.options.Name = "options";
-            resources.ApplyResources(this.options, "options");
-            this.options.Click += new System.EventHandler(this.options_Click);
-            // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
-            // 
-            // beenden
-            // 
-            this.beenden.Image = global::Script_Builder.Resource1.door_in;
-            this.beenden.Name = "beenden";
-            resources.ApplyResources(this.beenden, "beenden");
-            this.beenden.Click += new System.EventHandler(this.beenden_Click);
             // 
             // vorlagenMenu
             // 
@@ -471,65 +358,15 @@
             this.vorlagenMenu.Name = "vorlagenMenu";
             resources.ApplyResources(this.vorlagenMenu, "vorlagenMenu");
             // 
-            // clearAll
-            // 
-            this.clearAll.Image = global::Script_Builder.Resource1.page;
-            this.clearAll.Name = "clearAll";
-            resources.ApplyResources(this.clearAll, "clearAll");
-            this.clearAll.Click += new System.EventHandler(this.clearAll_Click);
-            // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
             resources.ApplyResources(this.toolStripSeparator8, "toolStripSeparator8");
             // 
-            // vorlagenImport
-            // 
-            this.vorlagenImport.Image = global::Script_Builder.Resource1.application_get;
-            this.vorlagenImport.Name = "vorlagenImport";
-            resources.ApplyResources(this.vorlagenImport, "vorlagenImport");
-            this.vorlagenImport.Click += new System.EventHandler(this.vorlagenImport_Click);
-            // 
-            // vorlagenExport
-            // 
-            this.vorlagenExport.Image = global::Script_Builder.Resource1.application_put;
-            this.vorlagenExport.Name = "vorlagenExport";
-            resources.ApplyResources(this.vorlagenExport, "vorlagenExport");
-            this.vorlagenExport.Click += new System.EventHandler(this.vorlagenExport_Click);
-            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
-            // 
-            // docConvert
-            // 
-            resources.ApplyResources(this.docConvert, "docConvert");
-            this.docConvert.Image = global::Script_Builder.Resource1.doc_convert;
-            this.docConvert.Name = "docConvert";
-            this.docConvert.Click += new System.EventHandler(this.docConvert_Click);
-            // 
-            // checkTemplate
-            // 
-            this.checkTemplate.CheckOnClick = true;
-            this.checkTemplate.Image = global::Script_Builder.Resource1.check_template_off;
-            this.checkTemplate.Name = "checkTemplate";
-            resources.ApplyResources(this.checkTemplate, "checkTemplate");
-            this.checkTemplate.CheckedChanged += new System.EventHandler(this.checkTemplate_CheckedChanged);
-            // 
-            // createIfBlock
-            // 
-            this.createIfBlock.Image = global::Script_Builder.Resource1.tag_if;
-            this.createIfBlock.Name = "createIfBlock";
-            resources.ApplyResources(this.createIfBlock, "createIfBlock");
-            this.createIfBlock.Click += new System.EventHandler(this.createIfBlock_Click);
-            // 
-            // checkComplexVariable
-            // 
-            this.checkComplexVariable.Image = global::Script_Builder.Resource1.check_complex_variable;
-            this.checkComplexVariable.Name = "checkComplexVariable";
-            resources.ApplyResources(this.checkComplexVariable, "checkComplexVariable");
-            this.checkComplexVariable.Click += new System.EventHandler(this.checkComplexVariable_Click);
             // 
             // toolStripSeparator7
             // 
@@ -552,63 +389,15 @@
             resources.ApplyResources(this.tabelleMenuStrip, "tabelleMenuStrip");
             this.tabelleMenuStrip.DropDownOpening += new System.EventHandler(this.tabelleMenuStrip_DropDownOpening);
             // 
-            // excelTableImport
-            // 
-            this.excelTableImport.Image = global::Script_Builder.Resource1.doc_excel_table;
-            this.excelTableImport.Name = "excelTableImport";
-            resources.ApplyResources(this.excelTableImport, "excelTableImport");
-            this.excelTableImport.Click += new System.EventHandler(this.excelTableImport_Click);
-            // 
-            // fileTableImport
-            // 
-            this.fileTableImport.Image = global::Script_Builder.Resource1.table_import;
-            this.fileTableImport.Name = "fileTableImport";
-            resources.ApplyResources(this.fileTableImport, "fileTableImport");
-            this.fileTableImport.Click += new System.EventHandler(this.fileTableImport_Click);
-            // 
-            // fileTableExport
-            // 
-            this.fileTableExport.Image = global::Script_Builder.Resource1.table_export;
-            this.fileTableExport.Name = "fileTableExport";
-            resources.ApplyResources(this.fileTableExport, "fileTableExport");
-            this.fileTableExport.Click += new System.EventHandler(this.fileTableExport_Click);
-            // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
             resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             // 
-            // spalteHinzu
-            // 
-            this.spalteHinzu.Image = global::Script_Builder.Resource1.add;
-            this.spalteHinzu.Name = "spalteHinzu";
-            resources.ApplyResources(this.spalteHinzu, "spalteHinzu");
-            this.spalteHinzu.Click += new System.EventHandler(this.spalteHinzuToolStripMenuItem_Click);
-            // 
-            // spalteEntfernenToolStripMenuItem
-            // 
-            this.spalteEntfernenToolStripMenuItem.Image = global::Script_Builder.Resource1.minus;
-            this.spalteEntfernenToolStripMenuItem.Name = "spalteEntfernenToolStripMenuItem";
-            resources.ApplyResources(this.spalteEntfernenToolStripMenuItem, "spalteEntfernenToolStripMenuItem");
-            // 
-            // clearTable
-            // 
-            this.clearTable.Image = global::Script_Builder.Resource1.cross;
-            this.clearTable.Name = "clearTable";
-            resources.ApplyResources(this.clearTable, "clearTable");
-            this.clearTable.Click += new System.EventHandler(this.clearTable_Click);
-            // 
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
             resources.ApplyResources(this.toolStripSeparator9, "toolStripSeparator9");
-            // 
-            // firstRowHeader
-            // 
-            this.firstRowHeader.Image = global::Script_Builder.Resource1.useFirstRow;
-            this.firstRowHeader.Name = "firstRowHeader";
-            resources.ApplyResources(this.firstRowHeader, "firstRowHeader");
-            this.firstRowHeader.Click += new System.EventHandler(this.firstRowHeader_Click);
             // 
             // makrosMenu
             // 
@@ -647,29 +436,17 @@
             // 
             this.hilfeMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openScriptingDoku,
+            this.toolStripSeparator12,
+            this.makroSamples,
             this.toolStripSeparator5,
             this.infoPageShow});
             this.hilfeMenu.Name = "hilfeMenu";
             resources.ApplyResources(this.hilfeMenu, "hilfeMenu");
             // 
-            // openScriptingDoku
-            // 
-            this.openScriptingDoku.Image = global::Script_Builder.Resource1.doc_pdf;
-            this.openScriptingDoku.Name = "openScriptingDoku";
-            resources.ApplyResources(this.openScriptingDoku, "openScriptingDoku");
-            this.openScriptingDoku.Click += new System.EventHandler(this.openScriptingDoku_Click);
-            // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
-            // 
-            // infoPageShow
-            // 
-            this.infoPageShow.Image = global::Script_Builder.Resource1.exclamation;
-            this.infoPageShow.Name = "infoPageShow";
-            resources.ApplyResources(this.infoPageShow, "infoPageShow");
-            this.infoPageShow.Click += new System.EventHandler(this.infoPageShow_Click);
             // 
             // cxmTextBox
             // 
@@ -682,27 +459,6 @@
             this.cxmTextBox.Name = "cxmTextBox";
             resources.ApplyResources(this.cxmTextBox, "cxmTextBox");
             this.cxmTextBox.Opening += new System.ComponentModel.CancelEventHandler(this.cxmTextBox_Opening);
-            // 
-            // tsmTextCut
-            // 
-            this.tsmTextCut.Image = global::Script_Builder.Resource1.cut;
-            this.tsmTextCut.Name = "tsmTextCut";
-            resources.ApplyResources(this.tsmTextCut, "tsmTextCut");
-            this.tsmTextCut.Click += new System.EventHandler(this.tsmTextCutCopy_Click);
-            // 
-            // tsmTextCopy
-            // 
-            this.tsmTextCopy.Image = global::Script_Builder.Resource1.page_copy;
-            this.tsmTextCopy.Name = "tsmTextCopy";
-            resources.ApplyResources(this.tsmTextCopy, "tsmTextCopy");
-            this.tsmTextCopy.Click += new System.EventHandler(this.tsmTextCutCopy_Click);
-            // 
-            // tsmTextPaste
-            // 
-            this.tsmTextPaste.Image = global::Script_Builder.Resource1.paste;
-            this.tsmTextPaste.Name = "tsmTextPaste";
-            resources.ApplyResources(this.tsmTextPaste, "tsmTextPaste");
-            this.tsmTextPaste.Click += new System.EventHandler(this.tsmTextPaste_Click);
             // 
             // tsmTextMenuSeperator
             // 
@@ -740,6 +496,268 @@
             resources.ApplyResources(this.progressBar, "progressBar");
             this.progressBar.Step = 1;
             // 
+            // tsmEditName
+            // 
+            this.tsmEditName.Image = global::Script_Builder.Resource1.textfield_rename;
+            this.tsmEditName.Name = "tsmEditName";
+            resources.ApplyResources(this.tsmEditName, "tsmEditName");
+            this.tsmEditName.Click += new System.EventHandler(this.tsmEditName_Click);
+            // 
+            // tsmRemove
+            // 
+            this.tsmRemove.Image = global::Script_Builder.Resource1.cross;
+            this.tsmRemove.Name = "tsmRemove";
+            resources.ApplyResources(this.tsmRemove, "tsmRemove");
+            this.tsmRemove.Click += new System.EventHandler(this.tsmRemove_Click);
+            // 
+            // tsmAddFile
+            // 
+            this.tsmAddFile.Image = global::Script_Builder.Resource1.new_templatefile;
+            this.tsmAddFile.Name = "tsmAddFile";
+            resources.ApplyResources(this.tsmAddFile, "tsmAddFile");
+            this.tsmAddFile.Click += new System.EventHandler(this.tsmAddFile_Click);
+            // 
+            // tsmAddSerial
+            // 
+            this.tsmAddSerial.Image = global::Script_Builder.Resource1.new_templateserial;
+            this.tsmAddSerial.Name = "tsmAddSerial";
+            resources.ApplyResources(this.tsmAddSerial, "tsmAddSerial");
+            this.tsmAddSerial.Click += new System.EventHandler(this.tsmAddSerial_Click);
+            // 
+            // tsmAddContent
+            // 
+            this.tsmAddContent.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmAddSingle,
+            this.tsmAddMultiple,
+            this.tsmAddSerialBlock});
+            this.tsmAddContent.Image = global::Script_Builder.Resource1.add_template;
+            this.tsmAddContent.Name = "tsmAddContent";
+            resources.ApplyResources(this.tsmAddContent, "tsmAddContent");
+            // 
+            // tsmAddSingle
+            // 
+            this.tsmAddSingle.Image = global::Script_Builder.Resource1.select_header;
+            this.tsmAddSingle.Name = "tsmAddSingle";
+            resources.ApplyResources(this.tsmAddSingle, "tsmAddSingle");
+            this.tsmAddSingle.Click += new System.EventHandler(this.tsmAddSingle_Click);
+            // 
+            // tsmAddMultiple
+            // 
+            this.tsmAddMultiple.Image = global::Script_Builder.Resource1.select_body;
+            this.tsmAddMultiple.Name = "tsmAddMultiple";
+            resources.ApplyResources(this.tsmAddMultiple, "tsmAddMultiple");
+            this.tsmAddMultiple.Click += new System.EventHandler(this.tsmAddMultiple_Click);
+            // 
+            // tsmAddSerialBlock
+            // 
+            this.tsmAddSerialBlock.Image = global::Script_Builder.Resource1.serial_header;
+            this.tsmAddSerialBlock.Name = "tsmAddSerialBlock";
+            resources.ApplyResources(this.tsmAddSerialBlock, "tsmAddSerialBlock");
+            this.tsmAddSerialBlock.Click += new System.EventHandler(this.tsmAddSerialBlock_Click);
+            // 
+            // tsmChangeOrder
+            // 
+            this.tsmChangeOrder.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmOrderUp,
+            this.tsmOrderDown});
+            this.tsmChangeOrder.Image = global::Script_Builder.Resource1.arrows_updown;
+            this.tsmChangeOrder.Name = "tsmChangeOrder";
+            resources.ApplyResources(this.tsmChangeOrder, "tsmChangeOrder");
+            // 
+            // tsmOrderUp
+            // 
+            this.tsmOrderUp.Image = global::Script_Builder.Resource1.arrow_up2;
+            this.tsmOrderUp.Name = "tsmOrderUp";
+            resources.ApplyResources(this.tsmOrderUp, "tsmOrderUp");
+            this.tsmOrderUp.Click += new System.EventHandler(this.tsmOrderUpDown_Click);
+            // 
+            // tsmOrderDown
+            // 
+            this.tsmOrderDown.Image = global::Script_Builder.Resource1.arrow_down2;
+            this.tsmOrderDown.Name = "tsmOrderDown";
+            resources.ApplyResources(this.tsmOrderDown, "tsmOrderDown");
+            this.tsmOrderDown.Click += new System.EventHandler(this.tsmOrderUpDown_Click);
+            // 
+            // picErrorName
+            // 
+            resources.ApplyResources(this.picErrorName, "picErrorName");
+            this.picErrorName.Image = global::Script_Builder.Resource1.error;
+            this.picErrorName.Name = "picErrorName";
+            this.picErrorName.TabStop = false;
+            this.picErrorName.Click += new System.EventHandler(this.picErrorName_Click);
+            // 
+            // createOutputFile
+            // 
+            this.createOutputFile.Image = global::Script_Builder.Resource1.disk;
+            resources.ApplyResources(this.createOutputFile, "createOutputFile");
+            this.createOutputFile.Name = "createOutputFile";
+            this.createOutputFile.Click += new System.EventHandler(this.createOutputFile_Click);
+            // 
+            // showOutputLog
+            // 
+            this.showOutputLog.Image = global::Script_Builder.Resource1.blog;
+            this.showOutputLog.Name = "showOutputLog";
+            resources.ApplyResources(this.showOutputLog, "showOutputLog");
+            this.showOutputLog.Click += new System.EventHandler(this.showOutputLog_Click);
+            // 
+            // options
+            // 
+            this.options.Image = global::Script_Builder.Resource1.hammer_screwdriver;
+            this.options.Name = "options";
+            resources.ApplyResources(this.options, "options");
+            this.options.Click += new System.EventHandler(this.options_Click);
+            // 
+            // beenden
+            // 
+            this.beenden.Image = global::Script_Builder.Resource1.door_in;
+            this.beenden.Name = "beenden";
+            resources.ApplyResources(this.beenden, "beenden");
+            this.beenden.Click += new System.EventHandler(this.beenden_Click);
+            // 
+            // clearAll
+            // 
+            this.clearAll.Image = global::Script_Builder.Resource1.page;
+            this.clearAll.Name = "clearAll";
+            resources.ApplyResources(this.clearAll, "clearAll");
+            this.clearAll.Click += new System.EventHandler(this.clearAll_Click);
+            // 
+            // vorlagenImport
+            // 
+            this.vorlagenImport.Image = global::Script_Builder.Resource1.application_get;
+            this.vorlagenImport.Name = "vorlagenImport";
+            resources.ApplyResources(this.vorlagenImport, "vorlagenImport");
+            this.vorlagenImport.Click += new System.EventHandler(this.vorlagenImport_Click);
+            // 
+            // vorlagenExport
+            // 
+            this.vorlagenExport.Image = global::Script_Builder.Resource1.application_put;
+            this.vorlagenExport.Name = "vorlagenExport";
+            resources.ApplyResources(this.vorlagenExport, "vorlagenExport");
+            this.vorlagenExport.Click += new System.EventHandler(this.vorlagenExport_Click);
+            // 
+            // docConvert
+            // 
+            resources.ApplyResources(this.docConvert, "docConvert");
+            this.docConvert.Image = global::Script_Builder.Resource1.doc_convert;
+            this.docConvert.Name = "docConvert";
+            this.docConvert.Click += new System.EventHandler(this.docConvert_Click);
+            // 
+            // checkTemplate
+            // 
+            this.checkTemplate.CheckOnClick = true;
+            this.checkTemplate.Image = global::Script_Builder.Resource1.check_template_off;
+            this.checkTemplate.Name = "checkTemplate";
+            resources.ApplyResources(this.checkTemplate, "checkTemplate");
+            this.checkTemplate.CheckedChanged += new System.EventHandler(this.checkTemplate_CheckedChanged);
+            // 
+            // createIfBlock
+            // 
+            this.createIfBlock.Image = global::Script_Builder.Resource1.tag_if;
+            this.createIfBlock.Name = "createIfBlock";
+            resources.ApplyResources(this.createIfBlock, "createIfBlock");
+            this.createIfBlock.Click += new System.EventHandler(this.createIfBlock_Click);
+            // 
+            // checkComplexVariable
+            // 
+            this.checkComplexVariable.Image = global::Script_Builder.Resource1.check_complex_variable;
+            this.checkComplexVariable.Name = "checkComplexVariable";
+            resources.ApplyResources(this.checkComplexVariable, "checkComplexVariable");
+            this.checkComplexVariable.Click += new System.EventHandler(this.checkComplexVariable_Click);
+            // 
+            // excelTableImport
+            // 
+            this.excelTableImport.Image = global::Script_Builder.Resource1.doc_excel_table;
+            this.excelTableImport.Name = "excelTableImport";
+            resources.ApplyResources(this.excelTableImport, "excelTableImport");
+            this.excelTableImport.Click += new System.EventHandler(this.excelTableImport_Click);
+            // 
+            // fileTableImport
+            // 
+            this.fileTableImport.Image = global::Script_Builder.Resource1.table_import;
+            this.fileTableImport.Name = "fileTableImport";
+            resources.ApplyResources(this.fileTableImport, "fileTableImport");
+            this.fileTableImport.Click += new System.EventHandler(this.fileTableImport_Click);
+            // 
+            // fileTableExport
+            // 
+            this.fileTableExport.Image = global::Script_Builder.Resource1.table_export;
+            this.fileTableExport.Name = "fileTableExport";
+            resources.ApplyResources(this.fileTableExport, "fileTableExport");
+            this.fileTableExport.Click += new System.EventHandler(this.fileTableExport_Click);
+            // 
+            // spalteHinzu
+            // 
+            this.spalteHinzu.Image = global::Script_Builder.Resource1.add;
+            this.spalteHinzu.Name = "spalteHinzu";
+            resources.ApplyResources(this.spalteHinzu, "spalteHinzu");
+            this.spalteHinzu.Click += new System.EventHandler(this.spalteHinzuToolStripMenuItem_Click);
+            // 
+            // spalteEntfernenToolStripMenuItem
+            // 
+            this.spalteEntfernenToolStripMenuItem.Image = global::Script_Builder.Resource1.minus;
+            this.spalteEntfernenToolStripMenuItem.Name = "spalteEntfernenToolStripMenuItem";
+            resources.ApplyResources(this.spalteEntfernenToolStripMenuItem, "spalteEntfernenToolStripMenuItem");
+            // 
+            // clearTable
+            // 
+            this.clearTable.Image = global::Script_Builder.Resource1.cross;
+            this.clearTable.Name = "clearTable";
+            resources.ApplyResources(this.clearTable, "clearTable");
+            this.clearTable.Click += new System.EventHandler(this.clearTable_Click);
+            // 
+            // firstRowHeader
+            // 
+            this.firstRowHeader.Image = global::Script_Builder.Resource1.useFirstRow;
+            this.firstRowHeader.Name = "firstRowHeader";
+            resources.ApplyResources(this.firstRowHeader, "firstRowHeader");
+            this.firstRowHeader.Click += new System.EventHandler(this.firstRowHeader_Click);
+            // 
+            // openScriptingDoku
+            // 
+            this.openScriptingDoku.Image = global::Script_Builder.Resource1.Actions_help_contents_icon;
+            this.openScriptingDoku.Name = "openScriptingDoku";
+            resources.ApplyResources(this.openScriptingDoku, "openScriptingDoku");
+            this.openScriptingDoku.Click += new System.EventHandler(this.openScriptingDoku_Click);
+            // 
+            // infoPageShow
+            // 
+            this.infoPageShow.Image = global::Script_Builder.Resource1.exclamation;
+            this.infoPageShow.Name = "infoPageShow";
+            resources.ApplyResources(this.infoPageShow, "infoPageShow");
+            this.infoPageShow.Click += new System.EventHandler(this.infoPageShow_Click);
+            // 
+            // tsmTextCut
+            // 
+            this.tsmTextCut.Image = global::Script_Builder.Resource1.cut;
+            this.tsmTextCut.Name = "tsmTextCut";
+            resources.ApplyResources(this.tsmTextCut, "tsmTextCut");
+            this.tsmTextCut.Click += new System.EventHandler(this.tsmTextCutCopy_Click);
+            // 
+            // tsmTextCopy
+            // 
+            this.tsmTextCopy.Image = global::Script_Builder.Resource1.page_copy;
+            this.tsmTextCopy.Name = "tsmTextCopy";
+            resources.ApplyResources(this.tsmTextCopy, "tsmTextCopy");
+            this.tsmTextCopy.Click += new System.EventHandler(this.tsmTextCutCopy_Click);
+            // 
+            // tsmTextPaste
+            // 
+            this.tsmTextPaste.Image = global::Script_Builder.Resource1.paste;
+            this.tsmTextPaste.Name = "tsmTextPaste";
+            resources.ApplyResources(this.tsmTextPaste, "tsmTextPaste");
+            this.tsmTextPaste.Click += new System.EventHandler(this.tsmTextPaste_Click);
+            // 
+            // toolStripSeparator12
+            // 
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            resources.ApplyResources(this.toolStripSeparator12, "toolStripSeparator12");
+            // 
+            // makroSamples
+            // 
+            this.makroSamples.Image = global::Script_Builder.Resource1.sdk;
+            this.makroSamples.Name = "makroSamples";
+            resources.ApplyResources(this.makroSamples, "makroSamples");
+            // 
             // mainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -752,15 +770,16 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mainForm_FormClosing);
             this.splitContainer.Panel1.ResumeLayout(false);
             this.splitContainer.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).EndInit();
             this.splitContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgrExcelContents)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.cxmVorlageSelect.ResumeLayout(false);
             this.pnlFileProperties.ResumeLayout(false);
             this.pnlFileProperties.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picErrorName)).EndInit();
             this.mainMenuStrip.ResumeLayout(false);
             this.mainMenuStrip.PerformLayout();
             this.cxmTextBox.ResumeLayout(false);
@@ -768,6 +787,7 @@
             this.tableLayoutPanel1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picErrorName)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -855,6 +875,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmAddSerialBlock;
         private System.Windows.Forms.PictureBox picErrorName;
         private System.Windows.Forms.ToolStripMenuItem spalteEntfernenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
+        private System.Windows.Forms.ToolStripMenuItem makroSamples;
     }
 }
 

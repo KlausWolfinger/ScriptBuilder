@@ -338,6 +338,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </None>
+    <None Include="Resources\Actions-help-contents-icon.png" />
+    <None Include="Resources\sdk.png" />
     <Content Include="scriptbuilder.ico" />
     <Content Include="scriptbuilder3.ico" />
   </ItemGroup>

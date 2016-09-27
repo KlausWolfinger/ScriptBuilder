@@ -219,3 +219,5 @@ pip-log.txt
 /.vs
 /Icons
 /obj
+/Thumbs.db
+*/Thumbs.db

@@ -63,6 +63,16 @@ namespace Script_Builder {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Actions_help_contents_icon {
+            get {
+                object obj = ResourceManager.GetObject("Actions-help-contents-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add {
             get {
                 object obj = ResourceManager.GetObject("add", resourceCulture);
@@ -356,6 +366,16 @@ namespace Script_Builder {
         internal static System.Drawing.Bitmap script {
             get {
                 object obj = ResourceManager.GetObject("script", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sdk {
+            get {
+                object obj = ResourceManager.GetObject("sdk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
