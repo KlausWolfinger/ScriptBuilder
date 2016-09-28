@@ -146,6 +146,7 @@ namespace Script_Builder
                     MessageBox.Show("There was no \"options.xml\" file found.\r\nNew preference file was created with default values.", "Read Preferences", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 //return false;
             }
+
             try
             {
                 XmlDocument options = new XmlDocument();
@@ -221,7 +222,9 @@ namespace Script_Builder
             {
                 MessageBox.Show(expt.Message, mainForm.programmStrings.GetString("textErrorReadOptions"), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
             bool needWrite = false;
+
             if (GetOptions("VariableMarker") == null)
             {
                 SetOptions("VariableMarker", "%");
