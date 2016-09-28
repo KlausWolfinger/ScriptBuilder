@@ -37,6 +37,7 @@
             this.cxmVorlageSelect = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.vorlageVerwaltenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.pnlFileProperties = new System.Windows.Forms.Panel();
             this.btnSerialWizard = new System.Windows.Forms.Button();
@@ -49,7 +50,6 @@
             this.btnNodeBrowseFilePath = new System.Windows.Forms.Button();
             this.txtNodePath = new System.Windows.Forms.TextBox();
             this.lblSavePath = new System.Windows.Forms.Label();
-            this.vorlageVerwaltenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainMenuStrip = new System.Windows.Forms.MenuStrip();
             this.dateiMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -67,7 +67,7 @@
             this.headerNewFormat = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.hilfeMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
             this.cxmTextBox = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmTextMenuSeperator = new System.Windows.Forms.ToolStripSeparator();
             this.tsmAddVariable = new System.Windows.Forms.ToolStripMenuItem();
@@ -110,8 +110,7 @@
             this.tsmTextCut = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmTextCopy = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmTextPaste = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
-            this.makroSamples = new System.Windows.Forms.ToolStripMenuItem();
+            this.beispieleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
             this.splitContainer.Panel2.SuspendLayout();
@@ -213,6 +212,12 @@
             this.toolStripSeparator11.Name = "toolStripSeparator11";
             resources.ApplyResources(this.toolStripSeparator11, "toolStripSeparator11");
             // 
+            // vorlageVerwaltenToolStripMenuItem
+            // 
+            this.vorlageVerwaltenToolStripMenuItem.DropDown = this.cxmVorlageSelect;
+            this.vorlageVerwaltenToolStripMenuItem.Name = "vorlageVerwaltenToolStripMenuItem";
+            resources.ApplyResources(this.vorlageVerwaltenToolStripMenuItem, "vorlageVerwaltenToolStripMenuItem");
+            // 
             // imageList1
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
@@ -301,12 +306,6 @@
             // 
             resources.ApplyResources(this.lblSavePath, "lblSavePath");
             this.lblSavePath.Name = "lblSavePath";
-            // 
-            // vorlageVerwaltenToolStripMenuItem
-            // 
-            this.vorlageVerwaltenToolStripMenuItem.DropDown = this.cxmVorlageSelect;
-            this.vorlageVerwaltenToolStripMenuItem.Name = "vorlageVerwaltenToolStripMenuItem";
-            resources.ApplyResources(this.vorlageVerwaltenToolStripMenuItem, "vorlageVerwaltenToolStripMenuItem");
             // 
             // mainMenuStrip
             // 
@@ -403,7 +402,8 @@
             // 
             this.makrosMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.groupDefaultHeader,
-            this.toolStripSeparator6});
+            this.toolStripSeparator6,
+            this.beispieleToolStripMenuItem});
             this.makrosMenu.Name = "makrosMenu";
             resources.ApplyResources(this.makrosMenu, "makrosMenu");
             // 
@@ -437,16 +437,14 @@
             this.hilfeMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openScriptingDoku,
             this.toolStripSeparator12,
-            this.makroSamples,
-            this.toolStripSeparator5,
             this.infoPageShow});
             this.hilfeMenu.Name = "hilfeMenu";
             resources.ApplyResources(this.hilfeMenu, "hilfeMenu");
             // 
-            // toolStripSeparator5
+            // toolStripSeparator12
             // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            resources.ApplyResources(this.toolStripSeparator12, "toolStripSeparator12");
             // 
             // cxmTextBox
             // 
@@ -747,16 +745,10 @@
             resources.ApplyResources(this.tsmTextPaste, "tsmTextPaste");
             this.tsmTextPaste.Click += new System.EventHandler(this.tsmTextPaste_Click);
             // 
-            // toolStripSeparator12
+            // beispieleToolStripMenuItem
             // 
-            this.toolStripSeparator12.Name = "toolStripSeparator12";
-            resources.ApplyResources(this.toolStripSeparator12, "toolStripSeparator12");
-            // 
-            // makroSamples
-            // 
-            this.makroSamples.Image = global::Script_Builder.Resource1.sdk;
-            this.makroSamples.Name = "makroSamples";
-            resources.ApplyResources(this.makroSamples, "makroSamples");
+            this.beispieleToolStripMenuItem.Name = "beispieleToolStripMenuItem";
+            resources.ApplyResources(this.beispieleToolStripMenuItem, "beispieleToolStripMenuItem");
             // 
             // mainForm
             // 
@@ -811,7 +803,6 @@
         private System.Windows.Forms.ToolStripMenuItem headerOldFormat;
         private System.Windows.Forms.ToolStripMenuItem headerNewFormat;
         private System.Windows.Forms.ToolStripMenuItem openScriptingDoku;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem infoPageShow;
         private System.Windows.Forms.SplitContainer splitContainer;
         private System.Windows.Forms.DataGridView dgrExcelContents;
@@ -876,7 +867,7 @@
         private System.Windows.Forms.PictureBox picErrorName;
         private System.Windows.Forms.ToolStripMenuItem spalteEntfernenToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
-        private System.Windows.Forms.ToolStripMenuItem makroSamples;
+        private System.Windows.Forms.ToolStripMenuItem beispieleToolStripMenuItem;
     }
 }
 

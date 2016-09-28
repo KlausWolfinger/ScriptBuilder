@@ -157,6 +157,9 @@
   <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="xlsx_win-256_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\xlsx_win-256_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="check_template_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\check_template_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,6 +232,9 @@
   <data name="select_header" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\select_header.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sdk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sdk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\minus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -241,7 +247,7 @@
   <data name="doc_convert" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\doc_convert.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sdk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\sdk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="xlsx_win-24_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\xlsx_win-24_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

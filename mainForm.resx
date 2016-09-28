@@ -207,24 +207,6 @@
   <data name="tsmAddSerial.Text" xml:space="preserve">
     <value>Neue Seriendatei erzeugen</value>
   </data>
-  <data name="tsmAddSingle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
-  </data>
-  <data name="tsmAddSingle.Text" xml:space="preserve">
-    <value>Einfach</value>
-  </data>
-  <data name="tsmAddMultiple.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
-  </data>
-  <data name="tsmAddMultiple.Text" xml:space="preserve">
-    <value>Wiederholt</value>
-  </data>
-  <data name="tsmAddSerialBlock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
-  </data>
-  <data name="tsmAddSerialBlock.Text" xml:space="preserve">
-    <value>Serienfeld</value>
-  </data>
   <data name="tsmAddContent.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 22</value>
   </data>
@@ -233,18 +215,6 @@
   </data>
   <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 6</value>
-  </data>
-  <data name="tsmOrderUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="tsmOrderUp.Text" xml:space="preserve">
-    <value>Nach oben</value>
-  </data>
-  <data name="tsmOrderDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="tsmOrderDown.Text" xml:space="preserve">
-    <value>Nach unten</value>
   </data>
   <data name="tsmChangeOrder.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 22</value>
@@ -281,7 +251,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAQ
-        DQAAAk1TRnQBSQFMAgEBBgEAARQBAAEUAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        DQAAAk1TRnQBSQFMAgEBBgEAASwBAAEsAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -375,27 +345,6 @@
   <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="picErrorName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="picErrorName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="picErrorName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>398, 7</value>
-  </data>
-  <data name="picErrorName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="picErrorName.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="picErrorName.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="picErrorName.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;picErrorName.Name" xml:space="preserve">
     <value>picErrorName</value>
   </data>
@@ -406,6 +355,222 @@
     <value>pnlFileProperties</value>
   </data>
   <data name="&gt;&gt;picErrorName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSerialWizard.Name" xml:space="preserve">
+    <value>btnSerialWizard</value>
+  </data>
+  <data name="&gt;&gt;btnSerialWizard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSerialWizard.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;btnSerialWizard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnNodeCancel.Name" xml:space="preserve">
+    <value>btnNodeCancel</value>
+  </data>
+  <data name="&gt;&gt;btnNodeCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNodeCancel.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;btnNodeCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnNodeChange.Name" xml:space="preserve">
+    <value>btnNodeChange</value>
+  </data>
+  <data name="&gt;&gt;btnNodeChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNodeChange.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;btnNodeChange.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtNodeName.Name" xml:space="preserve">
+    <value>txtNodeName</value>
+  </data>
+  <data name="&gt;&gt;txtNodeName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNodeName.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;txtNodeName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblNodeName.Name" xml:space="preserve">
+    <value>lblNodeName</value>
+  </data>
+  <data name="&gt;&gt;lblNodeName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNodeName.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;lblNodeName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cboNodeFileFormat.Name" xml:space="preserve">
+    <value>cboNodeFileFormat</value>
+  </data>
+  <data name="&gt;&gt;cboNodeFileFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboNodeFileFormat.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;cboNodeFileFormat.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblFileFormat.Name" xml:space="preserve">
+    <value>lblFileFormat</value>
+  </data>
+  <data name="&gt;&gt;lblFileFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFileFormat.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;lblFileFormat.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnNodeBrowseFilePath.Name" xml:space="preserve">
+    <value>btnNodeBrowseFilePath</value>
+  </data>
+  <data name="&gt;&gt;btnNodeBrowseFilePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNodeBrowseFilePath.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;btnNodeBrowseFilePath.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtNodePath.Name" xml:space="preserve">
+    <value>txtNodePath</value>
+  </data>
+  <data name="&gt;&gt;txtNodePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNodePath.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;txtNodePath.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblSavePath.Name" xml:space="preserve">
+    <value>lblSavePath</value>
+  </data>
+  <data name="&gt;&gt;lblSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSavePath.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;lblSavePath.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pnlFileProperties.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlFileProperties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlFileProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 230</value>
+  </data>
+  <data name="pnlFileProperties.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pnlFileProperties.Name" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;pnlFileProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlFileProperties.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;pnlFileProperties.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>599, 230</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>splitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Name" xml:space="preserve">
+    <value>splitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="splitContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>599, 422</value>
+  </data>
+  <data name="splitContainer.SplitterDistance" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="splitContainer.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="splitContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Name" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="btnSerialWizard.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -687,315 +852,9 @@
   <data name="&gt;&gt;lblSavePath.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="pnlFileProperties.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pnlFileProperties.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlFileProperties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>433, 230</value>
-  </data>
-  <data name="pnlFileProperties.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;pnlFileProperties.Name" xml:space="preserve">
-    <value>pnlFileProperties</value>
-  </data>
-  <data name="&gt;&gt;pnlFileProperties.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlFileProperties.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;pnlFileProperties.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>599, 230</value>
-  </data>
-  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>162</value>
-  </data>
-  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
-    <value>splitContainer.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splitContainer.Panel2.Name" xml:space="preserve">
-    <value>splitContainer.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer.Panel2.Parent" xml:space="preserve">
-    <value>splitContainer</value>
-  </data>
-  <data name="&gt;&gt;splitContainer.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="splitContainer.Panel2MinSize" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="splitContainer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>599, 422</value>
-  </data>
-  <data name="splitContainer.SplitterDistance" type="System.Int32, mscorlib">
-    <value>187</value>
-  </data>
-  <data name="splitContainer.SplitterWidth" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="splitContainer.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;splitContainer.Name" xml:space="preserve">
-    <value>splitContainer</value>
-  </data>
-  <data name="&gt;&gt;splitContainer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="mainMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>13, 21</value>
   </metadata>
-  <data name="createOutputFile.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Black</value>
-  </data>
-  <data name="createOutputFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="createOutputFile.Text" xml:space="preserve">
-    <value>Output-Datei erzeugen</value>
-  </data>
-  <data name="showOutputLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="showOutputLog.Text" xml:space="preserve">
-    <value>Output-Log</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 6</value>
-  </data>
-  <data name="options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="options.Text" xml:space="preserve">
-    <value>Optionen</value>
-  </data>
-  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 6</value>
-  </data>
-  <data name="beenden.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="beenden.Text" xml:space="preserve">
-    <value>Beenden</value>
-  </data>
-  <data name="dateiMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
-  </data>
-  <data name="dateiMenu.Text" xml:space="preserve">
-    <value>&amp;Datei</value>
-  </data>
-  <data name="clearAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="clearAll.Text" xml:space="preserve">
-    <value>Neu</value>
-  </data>
-  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 6</value>
-  </data>
-  <data name="vorlagenImport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="vorlagenImport.Text" xml:space="preserve">
-    <value>Import</value>
-  </data>
-  <data name="vorlagenExport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="vorlagenExport.Text" xml:space="preserve">
-    <value>Export</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 6</value>
-  </data>
-  <data name="docConvert.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="docConvert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="docConvert.Text" xml:space="preserve">
-    <value>Convert UNIX Text</value>
-  </data>
-  <data name="checkTemplate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="checkTemplate.Text" xml:space="preserve">
-    <value>Vorlage prüfen</value>
-  </data>
-  <data name="createIfBlock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="createIfBlock.Text" xml:space="preserve">
-    <value>Bedingung erstellen</value>
-  </data>
-  <data name="checkComplexVariable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="checkComplexVariable.Text" xml:space="preserve">
-    <value>Komplexe Variable prüfen</value>
-  </data>
-  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 6</value>
-  </data>
-  <data name="vorlagenMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
-  </data>
-  <data name="vorlagenMenu.Text" xml:space="preserve">
-    <value>&amp;Vorlagen</value>
-  </data>
-  <data name="excelTableImport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 22</value>
-  </data>
-  <data name="excelTableImport.Text" xml:space="preserve">
-    <value>Excel-/DLS-Daten aus Zwischenspeicher</value>
-  </data>
-  <data name="fileTableImport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 22</value>
-  </data>
-  <data name="fileTableImport.Text" xml:space="preserve">
-    <value>Tabelle importieren</value>
-  </data>
-  <data name="fileTableExport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 22</value>
-  </data>
-  <data name="fileTableExport.Text" xml:space="preserve">
-    <value>Tabelle exportieren</value>
-  </data>
-  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>281, 6</value>
-  </data>
-  <data name="spalteHinzu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 22</value>
-  </data>
-  <data name="spalteHinzu.Text" xml:space="preserve">
-    <value>Spalte hinzufügen</value>
-  </data>
-  <data name="spalteEntfernenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 22</value>
-  </data>
-  <data name="spalteEntfernenToolStripMenuItem.Text" xml:space="preserve">
-    <value>Spalte entfernen</value>
-  </data>
-  <data name="clearTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 22</value>
-  </data>
-  <data name="clearTable.Text" xml:space="preserve">
-    <value>Löschen</value>
-  </data>
-  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>281, 6</value>
-  </data>
-  <data name="firstRowHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 22</value>
-  </data>
-  <data name="firstRowHeader.Text" xml:space="preserve">
-    <value>Überschrift in erster Zeile</value>
-  </data>
-  <data name="tabelleMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 20</value>
-  </data>
-  <data name="tabelleMenuStrip.Text" xml:space="preserve">
-    <value>&amp;Tabelle</value>
-  </data>
-  <data name="headerOldFormat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 22</value>
-  </data>
-  <data name="headerOldFormat.Text" xml:space="preserve">
-    <value>Altes Format</value>
-  </data>
-  <data name="headerNewFormat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 22</value>
-  </data>
-  <data name="headerNewFormat.Text" xml:space="preserve">
-    <value>Neues Format</value>
-  </data>
-  <data name="groupDefaultHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 22</value>
-  </data>
-  <data name="groupDefaultHeader.Text" xml:space="preserve">
-    <value>OSV Script Default Header</value>
-  </data>
-  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 6</value>
-  </data>
-  <data name="makrosMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 20</value>
-  </data>
-  <data name="makrosMenu.Text" xml:space="preserve">
-    <value>&amp;Makros</value>
-  </data>
-  <data name="openScriptingDoku.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
-  </data>
-  <data name="openScriptingDoku.Text" xml:space="preserve">
-    <value>OSV Scripting Dokumentation</value>
-  </data>
-  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
-  </data>
-  <data name="makroSamples.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
-  </data>
-  <data name="makroSamples.Text" xml:space="preserve">
-    <value>Makro-Beispiele</value>
-  </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
-  </data>
-  <data name="infoPageShow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
-  </data>
-  <data name="infoPageShow.Text" xml:space="preserve">
-    <value>Info...</value>
-  </data>
-  <data name="hilfeMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="hilfeMenu.Text" xml:space="preserve">
-    <value>&amp;Hilfe</value>
-  </data>
   <data name="mainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -1020,26 +879,92 @@
   <data name="&gt;&gt;mainMenuStrip.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="dateiMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="dateiMenu.Text" xml:space="preserve">
+    <value>&amp;Datei</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 6</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 6</value>
+  </data>
+  <data name="vorlagenMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="vorlagenMenu.Text" xml:space="preserve">
+    <value>&amp;Vorlagen</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 6</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 6</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 6</value>
+  </data>
+  <data name="tabelleMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="tabelleMenuStrip.Text" xml:space="preserve">
+    <value>&amp;Tabelle</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 6</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 6</value>
+  </data>
+  <data name="makrosMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="makrosMenu.Text" xml:space="preserve">
+    <value>&amp;Makros</value>
+  </data>
+  <data name="groupDefaultHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 22</value>
+  </data>
+  <data name="groupDefaultHeader.Text" xml:space="preserve">
+    <value>OSV Script Default Header</value>
+  </data>
+  <data name="headerOldFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="headerOldFormat.Text" xml:space="preserve">
+    <value>Altes Format</value>
+  </data>
+  <data name="headerNewFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="headerNewFormat.Text" xml:space="preserve">
+    <value>Neues Format</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 6</value>
+  </data>
+  <data name="hilfeMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="hilfeMenu.Text" xml:space="preserve">
+    <value>&amp;Hilfe</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 6</value>
+  </data>
   <metadata name="cxmTextBox.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>493, 21</value>
   </metadata>
-  <data name="tsmTextCut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+  <data name="cxmTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 98</value>
   </data>
-  <data name="tsmTextCut.Text" xml:space="preserve">
-    <value>Ausschneiden</value>
+  <data name="&gt;&gt;cxmTextBox.Name" xml:space="preserve">
+    <value>cxmTextBox</value>
   </data>
-  <data name="tsmTextCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
-  </data>
-  <data name="tsmTextCopy.Text" xml:space="preserve">
-    <value>Kopieren</value>
-  </data>
-  <data name="tsmTextPaste.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
-  </data>
-  <data name="tsmTextPaste.Text" xml:space="preserve">
-    <value>Einfügen</value>
+  <data name="&gt;&gt;cxmTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tsmTextMenuSeperator.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 6</value>
@@ -1050,44 +975,11 @@
   <data name="tsmAddVariable.Text" xml:space="preserve">
     <value>Variable Einfügen</value>
   </data>
-  <data name="cxmTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 98</value>
-  </data>
-  <data name="&gt;&gt;cxmTextBox.Name" xml:space="preserve">
-    <value>cxmTextBox</value>
-  </data>
-  <data name="&gt;&gt;cxmTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>139, 21</value>
   </metadata>
-  <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 17</value>
-  </data>
-  <data name="statusLabel.Text" xml:space="preserve">
-    <value>Datensätze: 0</value>
-  </data>
-  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 16</value>
-  </data>
-  <data name="progressBar.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 422</value>
-  </data>
-  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>599, 22</value>
-  </data>
-  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="statusStrip1.Text" xml:space="preserve">
-    <value>statusStrip1</value>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
     <value>statusStrip1</value>
@@ -1130,6 +1022,258 @@
   </data>
   <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="splitContainer" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="statusStrip1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,22" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>139, 21</value>
+  </metadata>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 422</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>599, 22</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="statusLabel.Text" xml:space="preserve">
+    <value>Datensätze: 0</value>
+  </data>
+  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 16</value>
+  </data>
+  <data name="progressBar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmAddSingle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="tsmAddSingle.Text" xml:space="preserve">
+    <value>Einfach</value>
+  </data>
+  <data name="tsmAddMultiple.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="tsmAddMultiple.Text" xml:space="preserve">
+    <value>Wiederholt</value>
+  </data>
+  <data name="tsmAddSerialBlock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="tsmAddSerialBlock.Text" xml:space="preserve">
+    <value>Serienfeld</value>
+  </data>
+  <data name="tsmOrderUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="tsmOrderUp.Text" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="tsmOrderDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="tsmOrderDown.Text" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="picErrorName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="picErrorName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picErrorName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 7</value>
+  </data>
+  <data name="picErrorName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picErrorName.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="picErrorName.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="picErrorName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;picErrorName.Name" xml:space="preserve">
+    <value>picErrorName</value>
+  </data>
+  <data name="&gt;&gt;picErrorName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picErrorName.Parent" xml:space="preserve">
+    <value>pnlFileProperties</value>
+  </data>
+  <data name="&gt;&gt;picErrorName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="createOutputFile.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="createOutputFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="createOutputFile.Text" xml:space="preserve">
+    <value>Output-Datei erzeugen</value>
+  </data>
+  <data name="showOutputLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="showOutputLog.Text" xml:space="preserve">
+    <value>Output-Log</value>
+  </data>
+  <data name="options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="options.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="beenden.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="beenden.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="clearAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="clearAll.Text" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="vorlagenImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="vorlagenImport.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="vorlagenExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="vorlagenExport.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="docConvert.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="docConvert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="docConvert.Text" xml:space="preserve">
+    <value>Convert UNIX Text</value>
+  </data>
+  <data name="checkTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="checkTemplate.Text" xml:space="preserve">
+    <value>Vorlage prüfen</value>
+  </data>
+  <data name="createIfBlock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="createIfBlock.Text" xml:space="preserve">
+    <value>Bedingung erstellen</value>
+  </data>
+  <data name="checkComplexVariable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="checkComplexVariable.Text" xml:space="preserve">
+    <value>Komplexe Variable prüfen</value>
+  </data>
+  <data name="excelTableImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="excelTableImport.Text" xml:space="preserve">
+    <value>Excel-/DLS-Daten aus Zwischenspeicher</value>
+  </data>
+  <data name="fileTableImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="fileTableImport.Text" xml:space="preserve">
+    <value>Tabelle importieren</value>
+  </data>
+  <data name="fileTableExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="fileTableExport.Text" xml:space="preserve">
+    <value>Tabelle exportieren</value>
+  </data>
+  <data name="spalteHinzu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="spalteHinzu.Text" xml:space="preserve">
+    <value>Spalte hinzufügen</value>
+  </data>
+  <data name="spalteEntfernenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="spalteEntfernenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Spalte entfernen</value>
+  </data>
+  <data name="clearTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="clearTable.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="firstRowHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="firstRowHeader.Text" xml:space="preserve">
+    <value>Überschrift in erster Zeile</value>
+  </data>
+  <data name="openScriptingDoku.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="openScriptingDoku.Text" xml:space="preserve">
+    <value>OSV Scripting Dokumentation</value>
+  </data>
+  <data name="infoPageShow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="infoPageShow.Text" xml:space="preserve">
+    <value>Info...</value>
+  </data>
+  <data name="tsmTextCut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="tsmTextCut.Text" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="tsmTextCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="tsmTextCopy.Text" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="tsmTextPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="tsmTextPaste.Text" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="beispieleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 22</value>
+  </data>
+  <data name="beispieleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Beispiele</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1233,9 +1377,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>607, 495</value>
   </data>
@@ -1254,17 +1395,17 @@
   <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
-    <value>imageList1</value>
-  </data>
-  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;vorlageVerwaltenToolStripMenuItem.Name" xml:space="preserve">
     <value>vorlageVerwaltenToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;vorlageVerwaltenToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dateiMenu.Name" xml:space="preserve">
     <value>dateiMenu</value>
@@ -1362,10 +1503,10 @@
   <data name="&gt;&gt;hilfeMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
-    <value>toolStripSeparator5</value>
+  <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
+    <value>toolStripSeparator12</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmTextMenuSeperator.Name" xml:space="preserve">
@@ -1596,16 +1737,10 @@
   <data name="&gt;&gt;tsmTextPaste.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
-    <value>toolStripSeparator12</value>
+  <data name="&gt;&gt;beispieleToolStripMenuItem.Name" xml:space="preserve">
+    <value>beispieleToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;makroSamples.Name" xml:space="preserve">
-    <value>makroSamples</value>
-  </data>
-  <data name="&gt;&gt;makroSamples.Type" xml:space="preserve">
+  <data name="&gt;&gt;beispieleToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
